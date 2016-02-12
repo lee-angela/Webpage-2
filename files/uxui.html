@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<!--FONTS-->
+	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<!--END FONTS-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/logos/favicon-96x96.png">
+
+    <title> anais a. lee </title>
+
+   
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+	<!-- Animate.css CSS -->
+    <link href="css/animate.css" rel="stylesheet" media="all"/>
+
+    <!--required for navbar atm-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+	<div class="site-wrapper">
+
+		<div class="intro"> 
+			<div style="margin: 0 auto; text-align:center;">
+				<h1> UX/UI DESIGN </h1>
+				<div class="linkbar">
+					<div class="squares">
+						<a href="https://github.com/anais-lee" target="_blank">
+							<img src="images/logos/github_logo.png" style="width:50%;">
+						</a>
+					</div>
+					<!--<div style="display:inline-block; width:5%;">
+						<a href="https://dribbble.com/anaisangelalee" target="_blank">
+							<img src="images/logos/dribbble_logo.png" style="width:50%;">
+						</a>
+					</div>-->
+					<div class="squares">
+						<a href="mailto:anaislee@seas.upenn.edu" target="_blank">
+							<img src="images/logos/email_logo.png" style="width:50%;">
+						</a>
+					</div>
+				</div>
+				<div>
+					<a href="index.html"><p class="linkhome"> ANA&iuml;S ANGELA LEE </p></a>
+				</div>
+			</div>
+		</div><!--end intro-->
+
+		<div class="summary"> 
+			<p> Projects I'm currently working on, focused on user experience and interface design. </p>
+		</div>
+		
+
+		<div class="text-content">
+			<h3> PROJECT 1 : PRODUCTIVITY APP</h3>
+			<p> I'm currently working on a personal project with the goal of creating an app to improve productivity while using a computer. The ios app will contain features that, when open, allow the user to type specific keys and immediately make available another page/app. </p>
+
+			<p> Images coming soon </p>
+		</div>
+
+		<hr> 
+
+		<div class="text-content wow animated fadeIn">
+			<h3> PROJECT 2 : ENTERTAINMENT TRACKER ANDROID APP</h3>
+			<p> This android app is a project I am working on with a few fellow classmates. We are in the process of creating a user-friendly mobile android application that allows users to and helps them track or make progress on movies and television shows. Written in Java. </p>
+
+			<p> Images coming soon </p>
+		</div>
+
+	</div><!--end site-wrapper-->
+
+	<div class="footer">
+		<div class="bottomlinks">
+			<a href="index.html"><p class="linkhome"> ANA&iuml;S ANGELA LEE </p> </a>
+		</div>
+		<div class="bottomlinks" style="width:2px;">
+			<p> | </p>
+		</div>
+		<div class="bottomlinks">
+			<a href="mailto:anaislee@seas.upenn.edu"><p class="linkhome">EMAIL<p></a>
+		</div>
+		<div class="bottomlinks" style="width:2px;">
+			<p> | </p>
+		</div>
+		<div class="bottomlinks">
+			<a href="https://linkedin.com/in/anaisangelalee" target="_blank"><p class="linkhome">LINKED IN</p></a>
+		</div>
+		<div  class="bottomlinks"style="width:2px;">
+			<p> | </p>
+		</div>
+		<div class="bottomlinks">
+			<a href="https://github.com/anais-lee" target="_blank"><p class="linkhome">GITHUB</p></a>
+		</div>
+		<!--<div class="bottomlinks">
+			<a href="https://dribbble.com/anaisangelalee" target="_blank"><p class="linkhome">DRIBBBLE</p></a>
+		</div>-->
+	</footer>
+
+	<div class="footer2">
+		<div class="linkbar">
+			<div class="squares">
+				<a href="index.html">
+					<img src="images/logos/home_logo.png" style="width:50%;">
+				</a>
+			</div>
+			<div class="squares">
+				<a href="https://www.linkedin.com/in/anaisangelalee" target="_blank">
+					<img src="images/logos/linkedin_logo.png" style="width:50%;">
+				</a>
+			</div>
+			<div class="squares">
+				<a href="https://github.com/anais-lee" target="_blank">
+					<img src="images/logos/github_logo.png" style="width:50%;">
+				</a>
+			</div>
+			<div class="squares">
+				<a href="mailto:anaislee@seas.upenn.edu" target="_blank">
+					<img src="images/logos/email_logo.png" style="width:50%;">
+				</a>
+			</div>
+			
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	
+    <!--scroll animations-->
+    <script src="js/wow.js"></script>
+    
+	<script>
+    	if ( $(window).width() > 450) {     
+		  new WOW().init();
+		}
+    </script>
+
+
+	<script>
+		$(document).ready(function() {
+			$('body').css('display', 'none');
+			$('body').fadeIn(1000);
+
+		$('.link').click(function() {
+			event.preventDefault();
+			newLocation = this.href;
+
+		$('body').fadeOut(1000, newpage);
+		});
+
+		function newpage() {
+		window.location = newLocation;
+		}
+		});
+	</script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-73606932-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
+
+
+
+</body>
+</html>

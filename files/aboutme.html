@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--FONTS-->
+	<link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<!--END FONTS-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/logos/favicon-96x96.png">
+
+    <title> anais a. lee </title>
+
+   
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+	<!-- Animate.css CSS -->
+    <link href="css/animate.css" rel="stylesheet" media="all"/>
+
+    <!--required for navbar atm-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+	<div class="site-wrapper">
+
+		<div class="intro"> 
+			<div style="margin: 0 auto; text-align:center;">
+				<h1> ABOUT ME </h1>
+				<div class="linkbar">
+					<div class="squares">
+						<a href="https://www.linkedin.com/in/anaisangelalee" target="_blank">
+							<img src="images/logos/linkedin_logo.png" style="width:50%;">
+						</a>
+					</div>
+					<div class="squares">
+						<a href="mailto:anaislee@seas.upenn.edu" target="_blank">
+							<img src="images/logos/email_logo.png" style="width:50%;">
+						</a>
+					</div>
+				</div>
+				<div>
+					<a href="index.html"><p class="linkhome"> ANA&iuml;S ANGELA LEE  </p></a>
+				</div>
+			</div>
+		</div><!--end intro-->
+
+		<div class="picofme">
+			<img src="images/me.png" style="width:100%;">
+		</div>
+
+		<div class="text-content">
+			<h3> Hi, I'm Angela. </h3>
+			<p> I'm currently a student at UPenn, graduating December of 2016 with a BSE in Digital Media Design - a computer science & graphics program. I'm particularly interested in coding user experience focused projects, thinking from the perspectives of the user, developer, <i>and</i> designer. I'm constantly creating things and trying to bridge the gap between design and code. </p>
+
+			<p align="left"> When I'm not busy coding, I create new things and love to travel! I thrive on change and making new things. I work on a wide variety of projects in my free time, and these projects usually grow to something bigger. </p>
+
+			<p align="left"> I'd love to talk! Want to reach out? The best way to contact me is via email (anaislee@seas.upenn.edu). </p>
+		</div>
+	</div> <!--end site-wrapper-->
+
+	<div class="footer">
+		<div class="bottomlinks">
+			<a href="index.html"><p class="linkhome"> ANA&iuml;S ANGELA LEE </p> </a>
+		</div>
+		<div class="bottomlinks" style="width:2px;">
+			<p> | </p>
+		</div>
+		<div class="bottomlinks">
+			<a href="mailto:anaislee@seas.upenn.edu"><p class="linkhome">EMAIL<p></a>
+		</div>
+		<div class="bottomlinks" style="width:2px;">
+			<p> | </p>
+		</div>
+		<div class="bottomlinks">
+			<a href="https://linkedin.com/in/anaisangelalee" target="_blank"><p class="linkhome">LINKED IN</p></a>
+		</div>
+		<div  class="bottomlinks"style="width:2px;">
+			<p> | </p>
+		</div>
+		<div class="bottomlinks">
+			<a href="https://github.com/anais-lee" target="_blank"><p class="linkhome">GITHUB</p></a>
+		</div>
+		<!--<div class="bottomlinks">
+			<a href="https://dribbble.com/anaisangelalee" target="_blank"><p class="linkhome">DRIBBBLE</p></a>
+		</div>-->
+	</footer>
+
+	<div class="footer2">
+		<div class="linkbar">
+			<div class="squares">
+				<a href="index.html">
+					<img src="images/logos/home_logo.png" style="width:50%;">
+				</a>
+			</div>
+			<div class="squares">
+				<a href="https://www.linkedin.com/in/anaisangelalee" target="_blank">
+					<img src="images/logos/linkedin_logo.png" style="width:50%;">
+				</a>
+			</div>
+			<div class="squares">
+				<a href="https://github.com/anais-lee" target="_blank">
+					<img src="images/logos/github_logo.png" style="width:50%;">
+				</a>
+			</div>
+			<div class="squares">
+				<a href="mailto:anaislee@seas.upenn.edu" target="_blank">
+					<img src="images/logos/email_logo.png" style="width:50%;">
+				</a>
+			</div>
+			
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+			$('body').css('display', 'none');
+			$('body').fadeIn(1000);
+
+		$('.link').click(function() {
+			event.preventDefault();
+			newLocation = this.href;
+
+		$('body').fadeOut(1000, newpage);
+		});
+
+		function newpage() {
+		window.location = newLocation;
+		}
+		});
+	</script>
+
+
+
+
+</body>
+</html>
