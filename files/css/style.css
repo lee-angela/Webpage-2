@@ -3,7 +3,7 @@ body {
   background-color:#FFFFFC;
 }
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
   text-decoration:none;
@@ -61,7 +61,7 @@ table tr td {
 }
 
 .site-wrapper {
-	width:90%;
+  width:90%;
   margin:0 auto;
   padding-top:3%;
   padding-bottom:5%;
@@ -132,7 +132,7 @@ table tr td {
 }
 
 .images-only {
-  width:75%;
+  width:90%;
   margin:0 auto; 
   padding-top:5%; 
   padding-bottom:5%;
@@ -141,7 +141,7 @@ table tr td {
 
 .video-only {
   position:relative; 
-  width:75%;
+  width:90%;
   height:0;
   padding-bottom:50%; 
   margin:0 auto;">
