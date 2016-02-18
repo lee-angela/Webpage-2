@@ -2,9 +2,35 @@
 body {
   background-color:#FFFFFC;
 }
+
+button {
+  -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    background-color:#BBBCBE;
+    color:#393940;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    text-shadow:none;
+    border:none;
+    box-shadow:none;
+    outline: none;
+}
+
+button:hover{
+  -webkit-transition: all .1s linear;
+       -moz-transition: all .1s linear;
+        -ms-transition: all .1s linear;
+         -o-transition: all .1s linear;
+            transition: all .1s linear;
+  color:white;
+}
+
 a {
   text-decoration: none;
+  color:#393940;
 }
+
 a:hover {
   text-decoration:none;
   -webkit-transition: all .1s linear;
@@ -25,6 +51,14 @@ hr {
 
 
 p {
+  font-family: 'Raleway', sans-serif; 
+  font-size:17px;
+  text-decoration:none;
+  color:#393940;
+  letter-spacing:1px;
+}
+
+li {
   font-family: 'Raleway', sans-serif; 
   font-size:17px;
   text-decoration:none;
@@ -58,6 +92,11 @@ table {
 table tr td {
   padding:3%; 
   text-align:center;
+}
+
+.orangelink {
+  color:#FF835D;
+  text-decoration:none;
 }
 
 .site-wrapper {
@@ -176,6 +215,7 @@ table tr td {
 .bottomlinks {
   display:inline-block;
   width:13%;
+  text-decoration:none;
 }
 
 .picofme {
@@ -271,6 +311,11 @@ p.imgDescription {
     text-decoration:none;
     color:#393940;
     letter-spacing:1px;
+  }
+
+  li {
+    font-size:32px;
+    color:#393940;
   }
 
   h3 {
